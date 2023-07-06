@@ -1,0 +1,847 @@
+
+<!DOCTYPE html>
+<!--[if IE 8]>			<html class="ie ie8"> <![endif]-->
+<!--[if IE 9]>			<html class="ie ie9"> <![endif]-->
+<!--[if gt IE 9]><!-->	<html> <!--<![endif]-->
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	
+		<!-- mobile settings -->
+		<meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0" />
+	
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="http://www.regalfish.co.uk/assets/images/favicon/favicon.ico" />
+		<link rel="apple-touch-icon" sizes="57x57" href="http://www.regalfish.co.uk/assets/images/favicon/apple-touch-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="http://www.regalfish.co.uk/assets/images/favicon/apple-touch-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="http://www.regalfish.co.uk/assets/images/favicon/apple-touch-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="http://www.regalfish.co.uk/assets/images/favicon/apple-touch-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="http://www.regalfish.co.uk/assets/images/favicon/apple-touch-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="http://www.regalfish.co.uk/assets/images/favicon/apple-touch-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="http://www.regalfish.co.uk/assets/images/favicon/apple-touch-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="http://www.regalfish.co.uk/assets/images/favicon/apple-touch-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="http://www.regalfish.co.uk/assets/images/favicon/apple-touch-icon-180x180.png">
+		<link rel="icon" type="image/png" href="http://www.regalfish.co.uk/assets/images/favicon/favicon-192x192.png" sizes="192x192">
+		<link rel="icon" type="image/png" href="http://www.regalfish.co.uk/assets/images/favicon/favicon-160x160.png" sizes="160x160">
+		<link rel="icon" type="image/png" href="http://www.regalfish.co.uk/assets/images/favicon/favicon-96x96.png" sizes="96x96">
+		<link rel="icon" type="image/png" href="http://www.regalfish.co.uk/assets/images/favicon/favicon-16x16.png" sizes="16x16">
+		<link rel="icon" type="image/png" href="http://www.regalfish.co.uk/assets/images/favicon/favicon-32x32.png" sizes="32x32">
+		<meta name="msapplication-TileColor" content="#0cbbef">
+		<meta name="msapplication-TileImage" content="http://www.regalfish.co.uk/assets/images/favicon/mstile-144x144.png">
+		<meta name="msapplication-config" content="http://www.regalfish.co.uk/assets/images/favicon/browserconfig.xml">
+	
+		<!-- WEB FONTS -->
+		<!--<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&amp;subset=latin,latin-ext,cyrillic,cyrillic-ext" rel="stylesheet" type="text/css" />-->
+	<script src="//use.typekit.net/gok8zgs.js"></script>
+	<script>try{Typekit.load();}catch(e){}</script>
+
+
+		<!-- CORE CSS -->
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">		
+		<!--<link href="http://www.regalfish.co.uk/assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />-->		
+		<link href="/font-awesome.css" rel="stylesheet" type="text/css" />
+		<link href="http://www.regalfish.co.uk/assets/css/sky-forms.css" rel="stylesheet" type="text/css" />
+		<link href="http://www.regalfish.co.uk/assets/css/weather-icons.min.css" rel="stylesheet" type="text/css" />
+		<link href="http://www.regalfish.co.uk/assets/css/line-icons.css" rel="stylesheet" type="text/css" />
+		<link href="http://www.regalfish.co.uk/assets/plugins/owl-carousel/owl.pack.css" rel="stylesheet" type="text/css" />
+		<link href="http://www.regalfish.co.uk/assets/plugins/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css" />
+		<link href="http://www.regalfish.co.uk/assets/css/animate.css" rel="stylesheet" type="text/css" />
+		<link href="http://www.regalfish.co.uk/assets/css/flexslider.css" rel="stylesheet" type="text/css" />
+	
+		<!-- REVOLUTION SLIDER -->
+		<link href="http://www.regalfish.co.uk/assets/css/revolution-slider.css" rel="stylesheet" type="text/css" />
+		<link href="http://www.regalfish.co.uk/assets/css/layerslider.css" rel="stylesheet" type="text/css" />
+	
+		<link href="http://www.regalfish.co.uk/assets/css/layout-blog.css" rel="stylesheet" type="text/css" />
+		<!-- THEME CSS -->
+		<link href="http://www.regalfish.co.uk/assets/css/essentials.css" rel="stylesheet" type="text/css" />
+		<link href="http://www.regalfish.co.uk/assets/css/layout.css" rel="stylesheet" type="text/css" />
+		<link href="http://www.regalfish.co.uk/assets/css/header-default.css" rel="stylesheet" type="text/css" />
+		<link href="http://www.regalfish.co.uk/assets/css/footer-default.css" rel="stylesheet" type="text/css" />
+		<link href="http://www.regalfish.co.uk/assets/css/color_scheme/blue.css" rel="stylesheet" type="text/css" id="color_scheme" />
+	
+		<!-- Morenizr -->
+		<script type="text/javascript" src="http://www.regalfish.co.uk/assets/plugins/modernizr.min.js"></script>
+	
+		<!--[if lte IE 8]>
+			<script src="http://www.regalfish.co.uk/assets/plugins/respond.js"></script>
+		<![endif]-->
+		
+		<title>Fish and its health benefits. | Regal Fish Blog</title>
+		<link rel="profile" href="http://gmpg.org/xfn/11" />
+		<link rel="pingback" href="http://blog.regalfish.co.uk/xmlrpc.php" />
+
+ <!--<meta charset="UTF-8" />-->
+<!--[if lt IE 9]>
+<!--<script src="http://blog.regalfish.co.uk/wp-content/themes/regal/js/html5.js" type="text/javascript"></script>-->
+<!--<![endif]-->
+
+<script type='text/javascript'>
+var ct_ajaxurl = 'http://blog.regalfish.co.uk/wp-admin/admin-ajax.php';
+ var ct_info_flag=false;
+var ct_set_cookies_flag=true;
+ </script>
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Regal Fish Blog &raquo; Feed" href="http://blog.regalfish.co.uk/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Regal Fish Blog &raquo; Comments Feed" href="http://blog.regalfish.co.uk/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Regal Fish Blog &raquo; Fish and its health benefits. Comments Feed" href="http://blog.regalfish.co.uk/2019/12/09/fish-and-its-health-benefits/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/blog.regalfish.co.uk\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.2.18"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])?!1:!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='http://blog.regalfish.co.uk/wp-includes/css/dist/block-library/style.min.css?ver=5.2.18' type='text/css' media='all' />
+<link rel='stylesheet' id='cptch_stylesheet-css'  href='http://blog.regalfish.co.uk/wp-content/plugins/captcha/css/front_end_style.css?ver=4.2.7' type='text/css' media='all' />
+<link rel='stylesheet' id='dashicons-css'  href='http://blog.regalfish.co.uk/wp-includes/css/dashicons.min.css?ver=5.2.18' type='text/css' media='all' />
+<link rel='stylesheet' id='cptch_desktop_style-css'  href='http://blog.regalfish.co.uk/wp-content/plugins/captcha/css/desktop_style.css?ver=4.2.7' type='text/css' media='all' />
+<link rel='stylesheet' id='hupso_css-css'  href='http://blog.regalfish.co.uk/wp-content/plugins/hupso-share-buttons-for-twitter-facebook-google/style.css?ver=5.2.18' type='text/css' media='all' />
+<link rel='stylesheet' id='twentytwelve-fonts-css'  href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700&#038;subset=latin,latin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='twentytwelve-style-css'  href='http://blog.regalfish.co.uk/wp-content/themes/regal/style.css?ver=5.2.18' type='text/css' media='all' />
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='twentytwelve-ie-css'  href='http://blog.regalfish.co.uk/wp-content/themes/regal/css/ie.css?ver=20121010' type='text/css' media='all' />
+<![endif]-->
+<link rel='stylesheet' id='__EPYT__style-css'  href='http://blog.regalfish.co.uk/wp-content/plugins/youtube-embed-plus/styles/ytprefs.min.css?ver=5.2.18' type='text/css' media='all' />
+<style id='__EPYT__style-inline-css' type='text/css'>
+
+                .epyt-gallery-thumb {
+                        width: 33.333%;
+                }
+                
+</style>
+<script type='text/javascript' src='http://blog.regalfish.co.uk/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
+<script type='text/javascript' src='http://blog.regalfish.co.uk/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _EPYT_ = {"ajaxurl":"http:\/\/blog.regalfish.co.uk\/wp-admin\/admin-ajax.php","security":"90f9900bf1","gallery_scrolloffset":"20","eppathtoscripts":"http:\/\/blog.regalfish.co.uk\/wp-content\/plugins\/youtube-embed-plus\/scripts\/","epresponsiveselector":"[\"iframe.__youtube_prefs_widget__\"]","epdovol":"1","version":"11.5","evselector":"iframe.__youtube_prefs__[src], iframe[src*=\"youtube.com\/embed\/\"], iframe[src*=\"youtube-nocookie.com\/embed\/\"]"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://blog.regalfish.co.uk/wp-content/plugins/youtube-embed-plus/scripts/ytprefs.min.js?ver=5.2.18'></script>
+<link rel='https://api.w.org/' href='http://blog.regalfish.co.uk/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://blog.regalfish.co.uk/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://blog.regalfish.co.uk/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Supplier Spotlight &#8211; Norfra A/S' href='http://blog.regalfish.co.uk/2019/12/03/supplier-spotlight-norfra-a-s/' />
+<link rel='next' title='Even Legends Retire' href='http://blog.regalfish.co.uk/2019/12/19/even-legends-retire/' />
+<meta name="generator" content="WordPress 5.2.18" />
+<link rel="canonical" href="http://blog.regalfish.co.uk/2019/12/09/fish-and-its-health-benefits/" />
+<link rel='shortlink' href='http://blog.regalfish.co.uk/?p=1525' />
+<link rel="alternate" type="application/json+oembed" href="http://blog.regalfish.co.uk/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fblog.regalfish.co.uk%2F2019%2F12%2F09%2Ffish-and-its-health-benefits%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://blog.regalfish.co.uk/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fblog.regalfish.co.uk%2F2019%2F12%2F09%2Ffish-and-its-health-benefits%2F&#038;format=xml" />
+	<style type="text/css" id="twentytwelve-header-css">
+			.site-title,
+		.site-description {
+			position: absolute;
+			clip: rect(1px 1px 1px 1px); /* IE7 */
+			clip: rect(1px, 1px, 1px, 1px);
+		}
+		</style>
+	<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #ffffff; }
+</style>
+		</head>
+
+	<body  class="smoothscroll">
+
+		<div id="wrapper">
+		
+			<div id="header" class="sticky">
+				<!-- Top Bar -->
+				<header id="topBar" >
+					<div class="container">
+						<div class="pull-right fsize13 margin-top10">
+							<div id="barMain">
+								<nav class="nav-second">
+									<ul class="nav nav-pills nav-second">
+										<li class="hidden-xs"><a href="http://www.regalfish.co.uk/about-us/"><i class="fa fa-angle-right"></i> About</a></li>
+										<li class="hidden-xs"><a href="http://www.regalfish.co.uk/contacts/"><i class="fa fa-angle-right"></i> Contact Us</a></li>
+									</ul>
+								</nav>
+								<div class="pull-right fsize13 hide_mobile">
+									<div class="block text-right"><!-- social -->
+										<a href="https://www.facebook.com/RegalFish" class="social fa fa-facebook"></a>
+										<a href="https://twitter.com/regalfishuk" class="social fa fa-twitter"></a>
+										<a href="https://plus.google.com/+RegalfishCoUk1989" class="social fa fa-google-plus"></a>
+										<a href="http://www.pinterest.com/regalfishltd" class="social fa fa-pinterest"></a>
+									</div><!-- /social -->
+								</div>
+							</div>
+						</div>
+
+						<!-- Logo -->
+						<a class="logo" href="http://www.regalfish.co.uk/">
+							<img src="http://www.regalfish.co.uk/assets/images/logo_large.png" height="75" alt="" />
+						</a>
+
+					</div><!-- /.container -->
+				</header>
+				<!-- /Top Bar -->
+
+				<!-- Top Nav -->
+				<header id="topNav">
+					<div class="container">
+						<div class="addspaceerlogo"></div>
+
+						<!-- Mobile Menu Button -->
+						<button class="btn btn-mobile" data-toggle="collapse" data-target=".nav-main-collapse">
+							<i class="fa fa-bars"></i>
+						</button>
+
+						<!-- Search -->
+						<form class="search" method="post" action="http://www.regalfish.co.uk/seafood/search/" name="searchform" id="searchform">
+							<input type="text" class="form-control" name="search" value="" placeholder="Search">
+							<button class="fa fa-search"></button>
+						</form>
+						<!-- /Search -->
+
+						<!-- Top Nav -->
+						<div class="navbar-collapse nav-main-collapse collapse">
+							<nav class="nav-main">
+								<ul id="topMain" class="nav nav-pills nav-main">
+									<li class=" dropdown" >
+  										<a class="" href="http://www.regalfish.co.uk/">
+											HOME <span>welcome</span>
+										</a>
+									</li>
+
+									<li class="dropdown">
+										<a class="dropdown-toggle" href="http://www.regalfish.co.uk/about-us/">OUR SERVICE <span>about us</span></a>
+										<ul class="dropdown-menu">
+											<li><a href="http://www.regalfish.co.uk/about-us/"><i class="fa fa-angle-right"></i>About Us</a></li>
+											<li><a href="http://www.regalfish.co.uk/jobs/"><i class="fa fa-angle-right"></i>Recruitment</a></li>
+											<li><a href="http://www.regalfish.co.uk/about-us/testimonials/"><i class="fa fa-angle-right"></i>Testimonials</a></li>
+											<li><a href="http://www.regalfish.co.uk/about-us/faqs/"><i class="fa fa-angle-right"></i>FAQ's</a></li>
+										</ul>													
+									</li>
+									
+									<li class="dropdown">
+										<a class="dropdown-toggle" href="http://www.regalfish.co.uk/seafood/">PRODUCTS <span>Our Range</span></a>
+										<ul class="dropdown-menu">
+											<li><a href="http://www.regalfish.co.uk/seafood/"><i class="fa fa-angle-right"></i>Products Home</a></li>
+											<li><a href="http://www.regalfish.co.uk/seafood/search/"><i class="fa fa-angle-right"></i>Product Search</a></li>
+											<li><a class="dropdown-toggle" href="#"><i class="fa fa-cutlery"></i> View Categories</a>
+												<ul class="dropdown-menu ">
+													<li><a href="http://www.regalfish.co.uk/seafood/catch-of-the-day/"><i class="fa fa-angle-right"></i>NEW to our range</a></li><li><a href="http://www.regalfish.co.uk/seafood/prepared-seafood/"><i class="fa fa-angle-right"></i>Prepared Seafood</a></li><li><a href="http://www.regalfish.co.uk/seafood/snacks-and-light-lunches/"><i class="fa fa-angle-right"></i>Snacks And Light Lunches</a></li><li><a href="http://www.regalfish.co.uk/seafood/white-fish/"><i class="fa fa-angle-right"></i>White Fish</a></li><li><a href="http://www.regalfish.co.uk/seafood/oil-rich-fish/"><i class="fa fa-angle-right"></i>Oil Rich Fish</a></li><li><a href="http://www.regalfish.co.uk/seafood/smoked/"><i class="fa fa-angle-right"></i>Smoked Fish</a></li><li><a href="http://www.regalfish.co.uk/seafood/flat-fish/"><i class="fa fa-angle-right"></i>Flat Fish</a></li><li><a href="http://www.regalfish.co.uk/seafood/shellfish/"><i class="fa fa-angle-right"></i>Shellfish</a></li><li><a href="http://www.regalfish.co.uk/seafood/fish-to-eat/"><i class="fa fa-angle-right"></i>Fish to Eat</a></li><li><a href="http://www.regalfish.co.uk/seafood/portion-packs/"><i class="fa fa-angle-right"></i>Portion Packs</a></li><li><a href="http://www.regalfish.co.uk/seafood/lincolnshire-meats/"><i class="fa fa-angle-right"></i>Lincolnshire Meats</a></li><li><a href="http://www.regalfish.co.uk/seafood/special-offers/"><i class="fa fa-angle-right"></i>Special Offers</a></li><li><a href="http://www.regalfish.co.uk/seafood/whole-fish/"><i class="fa fa-angle-right"></i>Whole Fish</a></li><li><a href="http://www.regalfish.co.uk/seafood/gifts/"><i class="fa fa-angle-right"></i>Gift Vouchers</a></li>												</ul>
+											</li>
+										</ul>
+									</li>
+																		<li class="dropdown">
+										<a class="dropdown-toggle" href="http://www.regalfish.co.uk/recipes/">RECIPES <span>Delicious</span></a>
+										<ul class="dropdown-menu">
+											<li><a href="http://www.regalfish.co.uk/recipe/"><i class="fa fa-angle-right"></i>Recipe Home</a></li>
+											<li><a href="http://www.regalfish.co.uk/recipe/search/"><i class="fa fa-angle-right"></i>Recipe Search</a></li>
+											<li><a class="dropdown-toggle" href="#"><i class="fa fa-cutlery"></i> View Categories</a>
+												<ul class="dropdown-menu ">
+													<li><a href="http://www.regalfish.co.uk/recipe/flat-fish/"><i class="fa fa-angle-right"></i>Flat Fish</a></li><li><a href="http://www.regalfish.co.uk/recipe/oil-rich-fish/"><i class="fa fa-angle-right"></i>Oil Rich Fish</a></li><li><a href="http://www.regalfish.co.uk/recipe/shellfish/"><i class="fa fa-angle-right"></i>Shellfish</a></li><li><a href="http://www.regalfish.co.uk/recipe/smoked-fish/"><i class="fa fa-angle-right"></i>Smoked Fish</a></li><li><a href="http://www.regalfish.co.uk/recipe/white-fish/"><i class="fa fa-angle-right"></i>White Fish</a></li><li><a href="http://www.regalfish.co.uk/recipe/dinner-party-buffet-ideas/"><i class="fa fa-angle-right"></i>Dinner Party & Buffet Ideas</a></li><li><a href="http://www.regalfish.co.uk/recipe/family-favourites/"><i class="fa fa-angle-right"></i>Family Favourites</a></li><li><a href="http://www.regalfish.co.uk/recipe/quick-and-easy/"><i class="fa fa-angle-right"></i>Quick and Easy</a></li><li><a href="http://www.regalfish.co.uk/recipe/budget-friendly-recipes/"><i class="fa fa-angle-right"></i>Budget Friendly</a></li>												</ul>
+											</li>
+										</ul>													
+									</li>
+									<li class="dropdown  active">
+										<a  href="http://blog.regalfish.co.uk/">BLOG <span>recent news</span></a>
+									</li>
+																		<li class="dropdown">
+										<a class="dropdown-toggle" href="http://www.regalfish.co.uk/contacts/">CONTACT <span>write us</span></a>
+										<ul class="dropdown-menu">
+											<li><a href="http://www.regalfish.co.uk/contacts/"><i class="fa fa-angle-right"></i>General Enquiry</a></li>
+											<li><a href="http://www.regalfish.co.uk/contacts/customer-care/"><i class="fa fa-angle-right"></i>Customer Care</a></li>
+										</ul>													
+									</li>
+								</ul>
+
+							</nav>
+						</div>
+						<!-- /Top Nav -->
+
+					</div><!-- /.container -->
+				</header>
+				<!-- /Top Nav -->
+
+			</div>
+
+  		    	
+		
+		
+			<!-- PAGE TOP -->
+			<section class="page-title">
+				<div class="container">
+					<header>
+						<ul class="breadcrumb"><!-- breadcrumb -->
+							<li class="active"><a href="http://www.regalfish.co.uk/">Home</a></li> <li class="active"> </li>Blog
+						</ul><!-- /breadcrumb -->
+						<h2><!-- Page Title -->
+							Regal Fish <strong>Blog</strong>
+						</h2><!-- /Page Title -->
+					</header>
+				</div>			
+			</section>
+			<!-- /PAGE TOP -->
+														<!--<div > -->
+
+
+			<!-- CONTENT -->
+			<section>
+				<div class="container">
+
+					<div id="blog" class="row">
+
+						<!-- BLOG ARTICLE LIST -->
+						<div class="col-md-9 col-sm-9">
+
+
+			
+				<!-- article - text -->
+<!--<article id="post-1525" class="post-1525 post type-post status-publish format-standard hentry category-uncategorized">-->
+				
+							<div class="prev-article row">
+								<div class="blog-prev-date col-md-3 col-sm-3">
+									<span class="date">
+										9 <small>Dec 2019 </small>
+									</span>
+									<span class="info hidden-xs">
+										<span class="block"><i class="fa fa-user"></i> BY 																<a href="http://blog.regalfish.co.uk/author/regalfish/" rel="author">
+																	regalfish																</span>
+										<span class="block"><i class="fa fa-folder-open-o"></i> POSTED IN <a href="http://blog.regalfish.co.uk/category/uncategorized/" rel="category tag">Uncategorized</a></span>
+										<!--<span class="block"><i class="fa fa-comments"></i> WITH <a href="blog-single-sidebar.html#comments">3 COMMENTS</a></span>-->
+										<span class="block"><i class="fa fa-link"></i> <a href="http://blog.regalfish.co.uk/2019/12/09/fish-and-its-health-benefits/feed/">RSS 2.0</a> </span>
+									</span>
+								</div>
+
+								<div class="col-md-9 col-sm-9">
+
+									
+																				<h2 class="article-title">Fish and its health benefits.</h2>
+										
+			
+																				<div class="entry-content">
+											
+<figure class="wp-block-image"><img src="http://blog.regalfish.co.uk/wp-content/uploads/2021/05/AdobeStock_118673769-1024x342.jpeg" alt="" class="wp-image-1890" srcset="http://blog.regalfish.co.uk/wp-content/uploads/2021/05/AdobeStock_118673769-1024x342.jpeg 1024w, http://blog.regalfish.co.uk/wp-content/uploads/2021/05/AdobeStock_118673769-300x100.jpeg 300w, http://blog.regalfish.co.uk/wp-content/uploads/2021/05/AdobeStock_118673769-768x256.jpeg 768w, http://blog.regalfish.co.uk/wp-content/uploads/2021/05/AdobeStock_118673769-624x208.jpeg 624w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption>Fresh fish and other seafood</figcaption></figure>
+
+
+
+<p>I’m sure you all already know the health benefits of fish. It’s a great source of protein, omega 3 and vitamin D, all believed to be helpful for our bones, skin, eyes and nerves.</p>
+
+
+
+<p>The NHS recommends that we consume at
+least two portions (140g each) of fish a week, with at least one of them being
+oily fish such as salmon or mackerel</p>
+
+
+
+<p><strong>Health
+Benefits</strong></p>
+
+
+
+<p>As mentioned fish are a brilliant
+source of protein and omega 3 fatty acids. Omega 3 is an essential fatty acid
+which has been linked with improved heart health. Oily fish in particular is a
+great source of omega 3 which is why it’s advised to be one of your two
+portions a week. </p>
+
+
+
+<p>Vitamin D, which we get most of from
+our own cholesterol when our bodies are exposed to the sun, helps keep bones
+healthy, and vitamin B2, which is good for the skin, eyes, red blood cells and
+the nervous system, both of which we can get from consuming fish.</p>
+
+
+
+<p><strong>Fish in a
+Diabetic Diet</strong></p>
+
+
+
+<p>It’s common for people with diabetes
+to have low levels of vitamin D, so including fish in your diet is a great way
+to add to your vitamin D intake.</p>
+
+
+
+<p>Fish also provides some of our energy
+needs through the protein it contains and as previously mentioned the omega 3
+helps keep our hearts healthy.</p>
+
+
+
+<p>Scientists and researchers have
+hypothesised that consumption of fish may reduce the risk of developing type 2
+diabetes</p>
+
+
+
+<p>However, it has not been clear
+whether fish can be isolated as having a preventative effect and higher fish
+intakes may instead be a reflection of a better all-round diet.</p>
+
+
+
+<p></p>
+
+
+
+<p>Here are some useful resources so you can find out how much and what types of fish are good for your specific requirements&#8230;  </p>
+
+
+
+<p></p>
+
+
+
+<p><a href="https://www.nhs.uk/live-well/eat-well/fish-and-shellfish-nutrition/">https://www.nhs.uk/live-well/eat-well/fish-and-shellfish-nutrition/</a></p>
+
+
+
+<p><a href="https://www.diabetes.co.uk/food/fish.html">https://www.diabetes.co.uk/food/fish.html</a></p>
+
+
+
+<p>  <a href="https://www.fishisthedish.co.uk/health">https://www.fishisthedish.co.uk/health</a> </p>
+<div style="padding-bottom:20px; padding-top:10px;" class="hupso-share-buttons"><!-- Hupso Share Buttons - http://www.hupso.com/share/ --><a class="hupso_pop" href="http://www.hupso.com/share/"><img src="http://static.hupso.com/share/buttons/button100x23.png" style="border:0px; width:100; height: 23; " alt="Share Button" /></a><script type="text/javascript">var hupso_services=new Array("Twitter","Facebook","Google Plus","Pinterest","Linkedin");var hupso_icon_type = "labels";var hupso_background="#EAF4FF";var hupso_border="#66CCFF";var hupso_twitter_via = "RegalFishUK";var hupso_image_folder_url = "";var hupso_twitter_via="RegalFishUK";var hupso_url="";var hupso_title="Fish and its health benefits.";</script><script type="text/javascript" src="http://static.hupso.com/share/js/share.js"></script><!-- Hupso Share Buttons --></div>																					<!--											<div class="text-right">
+												<a href="blog-single-sidebar.html" class="read-more btn btn-xs"><i class="fa fa-sign-out"></i> READ MORE</a>
+											</div>
+											-->
+										</div><!-- .entry-content -->
+																																										</div>
+							</div>
+							<!-- /article - text -->
+			
+							<!--<div class="comments-link">
+				</div>--><!-- .comments-link -->
+			
+
+	<!--</article>--><!-- #post -->
+
+				<nav class="nav-single">
+					<h3 class="assistive-text">Post navigation</h3>
+					<span class="nav-previous"><a href="http://blog.regalfish.co.uk/2019/12/03/supplier-spotlight-norfra-a-s/" rel="prev"><span class="meta-nav">&larr;</span> Supplier Spotlight &#8211; Norfra A/S</a></span>
+					<span class="nav-next"><a href="http://blog.regalfish.co.uk/2019/12/19/even-legends-retire/" rel="next">Even Legends Retire <span class="meta-nav">&rarr;</span></a></span>
+				</nav><!-- .nav-single -->
+
+				
+<div id="comments" class="comments-area">
+
+	
+	
+		<div id="respond" class="comment-respond">
+		<h3 id="reply-title" class="comment-reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="/2019/12/09/fish-and-its-health-benefits/#respond" style="display:none;">Cancel reply</a></small></h3>			<form action="http://blog.regalfish.co.uk/wp-comments-post.php" method="post" id="commentform" class="comment-form">
+				<p class="comment-notes"><span id="email-notes">Your email address will not be published.</span> Required fields are marked <span class="required">*</span></p><p class="comment-form-comment"><label for="comment">Comment</label> <textarea id="comment" name="comment" cols="45" rows="8" maxlength="65525" required="required"></textarea></p><p class="comment-form-author"><label for="author">Name <span class="required">*</span></label> <input id="author" name="author" type="text" value="" size="30" maxlength="245" required='required' /></p>
+<p class="comment-form-email"><label for="email">Email <span class="required">*</span></label> <input id="email" name="email" type="text" value="" size="30" maxlength="100" aria-describedby="email-notes" required='required' /></p>
+<p class="comment-form-url"><label for="url">Website</label> <input id="url" name="url" type="text" value="" size="30" maxlength="200" /></p>
+<p class="comment-form-cookies-consent"><input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes" /><label for="wp-comment-cookies-consent">Save my name, email, and website in this browser for the next time I comment.</label></p>
+<p class="cptch_block"><script class="cptch_to_remove">
+				(function( timeout ) {
+					setTimeout(
+						function() {
+							var notice = document.getElementById("cptch_time_limit_notice_22");
+							if ( notice )
+								notice.style.display = "block";
+						},
+						timeout
+					);
+				})(120000);
+			</script>
+			<span id="cptch_time_limit_notice_22" class="cptch_time_limit_notice cptch_to_remove">Time limit is exhausted. Please reload CAPTCHA.</span><span class="cptch_wrap">
+				<label class="cptch_label" for="cptch_input_22">
+					<span class="cptch_span"><img class="cptch_img " src="data:image/png;base64,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" alt="image"/></span>
+					<span class="cptch_span">&nbsp;&#43;&nbsp;</span>
+					<span class="cptch_span"><input id="cptch_input_22" class="cptch_input cptch_wp_comments" type="text" autocomplete="off" name="cptch_number" value="" maxlength="2" size="2" aria-required="true" required="required" style="margin-bottom:0;display:inline;font-size: 12px;width: 40px;" /></span>
+					<span class="cptch_span">&nbsp;=&nbsp;</span>
+					<span class="cptch_span">&#116;e&#110;</span>
+					<input type="hidden" name="cptch_result" value="rK0=" />
+					<input type="hidden" name="cptch_time" value="1688641100" />
+					<input type="hidden" name="cptch_form" value="wp_comments" />
+				</label><span class="cptch_reload_button_wrap hide-if-no-js">
+					<noscript>
+						<style type="text/css">
+							.hide-if-no-js {
+								display: none !important;
+							}
+						</style>
+					</noscript>
+					<span class="cptch_reload_button dashicons dashicons-update"></span>
+				</span></span></p><p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Post Comment" /> <input type='hidden' name='comment_post_ID' value='1525' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p><input type="hidden" id="ct_checkjs_5f93f983524def3dca464469d2cf9f3e" name="ct_checkjs" value="0" /><script type="text/javascript">setTimeout(function(){    var ct_input_name = 'ct_checkjs_5f93f983524def3dca464469d2cf9f3e';    if (document.getElementById(ct_input_name) !== null) {        var ct_input_value = document.getElementById(ct_input_name).value;        document.getElementById(ct_input_name).value = document.getElementById(ct_input_name).value.replace(ct_input_value, '393297624');     }}, 1000);</script>			</form>
+			</div><!-- #respond -->
+	
+</div><!-- #comments .comments-area -->
+			
+						
+							</div>
+							<!-- BLOG SIDEBAR -->
+							<div class="col-md-3 col-sm-3">
+								
+			<div id="secondary" class="widget-area" role="complementary">
+			<aside id="archives-2" class="widget widget_archive"><h3 class="widget-title">Archives</h3>		<ul>
+				<li><a href='http://blog.regalfish.co.uk/2021/08/'>August 2021</a></li>
+	<li><a href='http://blog.regalfish.co.uk/2021/06/'>June 2021</a></li>
+	<li><a href='http://blog.regalfish.co.uk/2020/11/'>November 2020</a></li>
+	<li><a href='http://blog.regalfish.co.uk/2020/10/'>October 2020</a></li>
+	<li><a href='http://blog.regalfish.co.uk/2020/09/'>September 2020</a></li>
+	<li><a href='http://blog.regalfish.co.uk/2020/08/'>August 2020</a></li>
+	<li><a href='http://blog.regalfish.co.uk/2020/07/'>July 2020</a></li>
+	<li><a href='http://blog.regalfish.co.uk/2020/06/'>June 2020</a></li>
+	<li><a href='http://blog.regalfish.co.uk/2020/05/'>May 2020</a></li>
+	<li><a href='http://blog.regalfish.co.uk/2020/04/'>April 2020</a></li>
+	<li><a href='http://blog.regalfish.co.uk/2020/03/'>March 2020</a></li>
+	<li><a href='http://blog.regalfish.co.uk/2020/02/'>February 2020</a></li>
+	<li><a href='http://blog.regalfish.co.uk/2020/01/'>January 2020</a></li>
+	<li><a href='http://blog.regalfish.co.uk/2019/12/'>December 2019</a></li>
+	<li><a href='http://blog.regalfish.co.uk/2019/11/'>November 2019</a></li>
+	<li><a href='http://blog.regalfish.co.uk/2019/10/'>October 2019</a></li>
+	<li><a href='http://blog.regalfish.co.uk/2019/09/'>September 2019</a></li>
+	<li><a href='http://blog.regalfish.co.uk/2019/08/'>August 2019</a></li>
+	<li><a href='http://blog.regalfish.co.uk/2019/07/'>July 2019</a></li>
+	<li><a href='http://blog.regalfish.co.uk/2019/06/'>June 2019</a></li>
+	<li><a href='http://blog.regalfish.co.uk/2019/05/'>May 2019</a></li>
+	<li><a href='http://blog.regalfish.co.uk/2019/04/'>April 2019</a></li>
+	<li><a href='http://blog.regalfish.co.uk/2019/03/'>March 2019</a></li>
+	<li><a href='http://blog.regalfish.co.uk/2019/02/'>February 2019</a></li>
+	<li><a href='http://blog.regalfish.co.uk/2019/01/'>January 2019</a></li>
+	<li><a href='http://blog.regalfish.co.uk/2018/10/'>October 2018</a></li>
+	<li><a href='http://blog.regalfish.co.uk/2017/08/'>August 2017</a></li>
+	<li><a href='http://blog.regalfish.co.uk/2016/09/'>September 2016</a></li>
+	<li><a href='http://blog.regalfish.co.uk/2016/08/'>August 2016</a></li>
+	<li><a href='http://blog.regalfish.co.uk/2016/07/'>July 2016</a></li>
+	<li><a href='http://blog.regalfish.co.uk/2016/06/'>June 2016</a></li>
+	<li><a href='http://blog.regalfish.co.uk/2016/05/'>May 2016</a></li>
+	<li><a href='http://blog.regalfish.co.uk/2016/04/'>April 2016</a></li>
+	<li><a href='http://blog.regalfish.co.uk/2016/03/'>March 2016</a></li>
+	<li><a href='http://blog.regalfish.co.uk/2016/02/'>February 2016</a></li>
+	<li><a href='http://blog.regalfish.co.uk/2016/01/'>January 2016</a></li>
+	<li><a href='http://blog.regalfish.co.uk/2015/10/'>October 2015</a></li>
+	<li><a href='http://blog.regalfish.co.uk/2015/07/'>July 2015</a></li>
+	<li><a href='http://blog.regalfish.co.uk/2015/06/'>June 2015</a></li>
+	<li><a href='http://blog.regalfish.co.uk/2015/04/'>April 2015</a></li>
+	<li><a href='http://blog.regalfish.co.uk/2015/02/'>February 2015</a></li>
+	<li><a href='http://blog.regalfish.co.uk/2015/01/'>January 2015</a></li>
+	<li><a href='http://blog.regalfish.co.uk/2014/10/'>October 2014</a></li>
+	<li><a href='http://blog.regalfish.co.uk/2014/07/'>July 2014</a></li>
+	<li><a href='http://blog.regalfish.co.uk/2014/06/'>June 2014</a></li>
+	<li><a href='http://blog.regalfish.co.uk/2014/05/'>May 2014</a></li>
+	<li><a href='http://blog.regalfish.co.uk/2014/04/'>April 2014</a></li>
+	<li><a href='http://blog.regalfish.co.uk/2014/03/'>March 2014</a></li>
+	<li><a href='http://blog.regalfish.co.uk/2014/02/'>February 2014</a></li>
+	<li><a href='http://blog.regalfish.co.uk/2014/01/'>January 2014</a></li>
+	<li><a href='http://blog.regalfish.co.uk/2013/12/'>December 2013</a></li>
+	<li><a href='http://blog.regalfish.co.uk/2013/11/'>November 2013</a></li>
+	<li><a href='http://blog.regalfish.co.uk/2013/10/'>October 2013</a></li>
+	<li><a href='http://blog.regalfish.co.uk/2013/09/'>September 2013</a></li>
+	<li><a href='http://blog.regalfish.co.uk/2013/07/'>July 2013</a></li>
+	<li><a href='http://blog.regalfish.co.uk/2013/03/'>March 2013</a></li>
+	<li><a href='http://blog.regalfish.co.uk/2013/02/'>February 2013</a></li>
+	<li><a href='http://blog.regalfish.co.uk/2012/05/'>May 2012</a></li>
+	<li><a href='http://blog.regalfish.co.uk/2012/01/'>January 2012</a></li>
+	<li><a href='http://blog.regalfish.co.uk/2011/07/'>July 2011</a></li>
+	<li><a href='http://blog.regalfish.co.uk/2011/01/'>January 2011</a></li>
+	<li><a href='http://blog.regalfish.co.uk/2010/10/'>October 2010</a></li>
+	<li><a href='http://blog.regalfish.co.uk/2010/04/'>April 2010</a></li>
+	<li><a href='http://blog.regalfish.co.uk/2009/11/'>November 2009</a></li>
+	<li><a href='http://blog.regalfish.co.uk/2008/08/'>August 2008</a></li>
+		</ul>
+			</aside><aside id="kebo_twitter_feed_widget-3" class="widget kebo_twitter_feed_widget"><h3 class="widget-title">Twitter Feed</h3>
+
+<ul class="kebo-tweets slider kebo_twitter_feed_widget-3 light" data-timeout="10000" data-speed="1000" data-animation="fade">
+
+        
+            
+                
+            <p>Sorry, no Tweets were found.</p>
+            
+                
+      
+            
+    
+</ul></aside><aside id="widget_facebookzamablog" class="widget fctWidgetFacebookZamablogDisplay"><h3 class="widget-title">Facebook</h3><div id="fb-root"></div>
+<script>(function(d, s, id) {
+var js, fjs = d.getElementsByTagName(s)[0];
+if (d.getElementById(id)) return;
+js = d.createElement(s); js.id = id;
+js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=161465360652229";
+fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div class="fb-like-box" data-href="https://www.facebook.com/RegalFish" data-width="255" data-height="255" data-show-faces="true" data-stream="true" data-header="true" data-colorscheme="light"> </div>
+<div style="display:none; margin: 0px; padding: 0px;">
+
+<h3><a style="color: #ccc;" href="https://dezmonde.com/?language=English">Web hosting and nomain names</a></h3>
+</div>
+
+<!-- version: 4.0 # 20 % 10 = 0 --></aside>		</div><!-- #secondary -->
+								</div>
+						</div>
+					</div>
+				</section>
+
+
+
+<script async type='text/javascript' src='http://blog.regalfish.co.uk/wp-content/plugins/cleantalk-spam-protect/inc/cleantalk_nocache.js?random=5.53'></script>
+<script type="text/javascript">function ctSetCookie(c_name, value, def_value) {    document.cookie = c_name + "=" + escape(value.replace(/^def_value$/, value)) + "; path=/";}ctSetCookie("ct_checkjs", "393297624", "0");</script><link rel='stylesheet' id='kebo-twitter-plugin-css'  href='http://blog.regalfish.co.uk/wp-content/plugins/kebo-twitter-feed/css/plugin.css?ver=1.5.12' type='text/css' media='all' />
+<script type='text/javascript' src='http://blog.regalfish.co.uk/wp-includes/js/comment-reply.min.js?ver=5.2.18'></script>
+<script type='text/javascript' src='http://blog.regalfish.co.uk/wp-content/themes/regal/js/navigation.js?ver=1.0'></script>
+<script type='text/javascript' src='http://blog.regalfish.co.uk/wp-content/plugins/youtube-embed-plus/scripts/fitvids.min.js?ver=5.2.18'></script>
+<script type='text/javascript' src='http://blog.regalfish.co.uk/wp-includes/js/wp-embed.min.js?ver=5.2.18'></script>
+<script type='text/javascript' src='http://blog.regalfish.co.uk/wp-content/plugins/kebo-twitter-feed/js/responsiveslides.min.js?ver=1.5.12'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var cptch_vars = {"nonce":"f8f8b3a851","ajaxurl":"http:\/\/blog.regalfish.co.uk\/wp-admin\/admin-ajax.php","enlarge":"0"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://blog.regalfish.co.uk/wp-content/plugins/captcha/js/front_end_script.js?ver=5.2.18'></script>
+    <script type="text/javascript">
+        
+        //<![CDATA[
+        jQuery(document).ready(function() {
+            
+            jQuery( '.ktweet .kfooter a:not(.ktogglemedia)' ).click(function(e) {
+
+                // Prevent Click from Reloading page
+                e.preventDefault();
+
+                var khref = jQuery(this).attr('href');
+                window.open( khref, 'twitter', 'width=600, height=400, top=0, left=0');
+
+            });
+            
+        });
+        //]]>
+        
+    </script>
+        <script type="text/javascript">
+        //<![CDATA[
+        jQuery(document).ready(function() {
+            
+            ktimeout = jQuery( ".kebo_twitter_feed_widget-3" ).data( "timeout" );
+            kspeed = jQuery( ".kebo_twitter_feed_widget-3" ).data( "speed" );
+            
+            jQuery( function() {
+                jQuery( ".kebo_twitter_feed_widget-3" ).responsiveSlides({
+                    auto: true,           // Boolean: Animate automatically, true or false
+                    speed: kspeed,        // Integer: Speed of the transition, in milliseconds
+                    timeout: ktimeout,    // Integer: Time between slide transitions, in milliseconds
+                    pager: false,         // Boolean: Show pager, true or false
+                    nav: false,           // Boolean: Show navigation, true or false
+                    random: false,        // Boolean: Randomize the order of the slides, true or false
+                    pause: true           // Boolean: Pause on hover, true or false
+                });
+            });
+
+        });
+        //]]>
+    </script>
+    			<!-- FOOTER -->
+			<footer id="footer">
+				<div class="container">
+
+					<div class="row">
+
+						<!-- col #1 -->
+						<div class="spaced col-md-4 col-sm-4">
+
+							<h4>About <strong>Us</strong></h4>
+
+							<p>
+								Finest Quality Seafood delivered straight to your door.
+							<h4>01652 662100</h4>
+							</p>
+							<p class="block"><!-- social -->
+								<a href="https://www.facebook.com/RegalFish" class="social fa fa-facebook"></a>
+								<a href="https://twitter.com/regalfishuk" class="social fa fa-twitter"></a>
+								<a href="https://plus.google.com/+RegalfishCoUk1989" class="social fa fa-google-plus"></a>
+								<a href="http://www.pinterest.com/regalfishltd" class="social fa fa-pinterest"></a>
+							</p><!-- /social -->
+									<h4>Secure <strong>Payment</strong></h4>
+									<p>	<!-- see assets/images/cc/ for more icons -->
+										<img src="http://www.regalfish.co.uk/assets/images/cc/Visa.png" alt="" />
+										<img src="http://www.regalfish.co.uk/assets/images/cc/Mastercard.png" alt="" />
+										<img src="http://www.regalfish.co.uk/assets/images/cc/Maestro.png" alt="" />
+									</p>
+
+						</div>
+						<!-- /col #1 -->
+
+						<!-- col #2 -->
+						<div class="spaced col-md-8 col-sm-8">
+
+							<div class="row">
+
+								<div class="col-md-5 hidden-sm hidden-xs">
+									<h4>Recent <strong>News</strong></h4>
+									<ul class="list-unstyled">
+									</ul>
+								</div>
+
+								<div class="col-md-3 hidden-sm hidden-xs">
+									<h4>Explore <strong>Us</strong></h4>
+									<ul class="list-unstyled nobordered">
+										<li><a class="block" href="http://www.regalfish.co.uk/about-us/"><i class="fa fa-angle-right"></i> About Us</a></li>
+										<li><a class="block" href="http://www.regalfish.co.uk/seafood/"><i class="fa fa-angle-right"></i> Seafood Products</a></li>
+										<li><a class="block" href="http://www.regalfish.co.uk/recipe/"><i class="fa fa-angle-right"></i> Seafood Recipes</a></li>
+										<li><a class="block" href="http://www.regalfish.co.uk/accounts/details/"><i class="fa fa-angle-right"></i> My Account</a></li>
+										<li><a class="block" href="http://www.regalfish.co.uk/about-us/faqs/"><i class="fa fa-angle-right"></i> FAQ</a></li>
+										<li><a class="block" href="http://blog.regalfish.co.uk/"><i class="fa fa-angle-right"></i> Blog</a></li>
+										<li><a class="block" href="http://www.regalfish.co.uk/contacts/"><i class="fa fa-angle-right"></i> Contact Us</a></li>
+									</ul>
+								</div>
+
+								<!-- <div class="col-md-4">
+									<h4>Newsletter <strong>Subscribe</strong></h4>
+									<div id="WFItem121781" class="wf-formTpl">
+										<form accept-charset="utf-8" action="https://app.getresponse.com/add_contact_webform.html?u=siP" method="post" class="input-group">
+											<div class="wf-box">
+												<div id="WFIheader" class="wf-header el" style="height: 75px; display:  none !important;">
+													<div class="actTinyMceElBodyContent">
+														<p>
+															<span style="font-size: 24px ! important;">Headline</span>
+														</p>
+													</div>
+													<em class="clearfix clearer"></em>
+												</div>
+												<div id="WFIcenter" class="wf-body" style=" margin:0px; padding:0px;">
+													<ul class="wf-sortable" id="wf-sort-id" style=" margin:0px; padding:0px;">
+														<li class="wf-name" rel="undefined" style=" margin:0px; padding:0px; display:  block !important;">
+															<div class="wf-contbox">
+
+																<div class="wf-inputpos">
+																	<input type="text" class="form-control wf-req wf-valid__length1to255" size"10" name="name" placeholder=" Your Name"></input>
+																</div>
+																<em class="clearfix clearer">&nbsp;</em>
+															</div>
+														</li>
+														<li class="wf-email" rel="undefined" style="margin:0px; padding:0px; display:  block !important;">
+															<div class="wf-contbox">
+
+																<div class="wf-inputpos">
+																	<input type="text" class="form-control wf-req wf-valid__email" name="email" placeholder=" Your Email"></input>
+																</div>
+																<em class="clearfix clearer">&nbsp;</em>
+															</div>
+														</li>
+														<!-- <li class="wf-submit" rel="undefined" style="display:  block !important;">
+															<div class="wf-contbox">
+																<div class="input-group-btn wf-inputpos">
+																	<input type="submit" value="gn Up!" class="btn btn-primary" name="submit"></input>
+																</div>
+																<em class="clearfix clearer"></em>
+															</div>
+														</li>
+														<li class="wf-counter" rel="undefined" style="display:  none !important;">
+															<div class="wf-contbox">
+																<div>
+																	<span style="padding: 4px 6px 8px 24px; background: url(https://app.getresponse.com/images/core/webforms/countertemplates.png) no-repeat scroll left 0pt transparent;"
+																	class="wf-counterbox">
+																		<span class="wf-counterboxbg" style="padding: 4px 12px 8px 5px; background: url(https://app.getresponse.com/images/core/webforms/countertemplates.png) no-repeat scroll right -36px transparent;">
+																			<span class="wf-counterbox0" style="padding: 5px 0pt;"></span>
+																			<span style="padding: 5px;" name="https://app.getresponse.com/display_subscribers_count.js?campaign_name=regalfish&var=0"
+																			class="wf-counterbox1 wf-counterq">0</span>
+																			<span style="padding: 5px 0pt;" class="wf-counterbox2">subscribers</span>
+																		</span>
+																	</span>
+																</div>
+															</div>
+														</li>
+														<li class="wf-captcha" rel="undefined" style="display:  none !important;">
+															<div wf-captchaerror="Incorrect please try again" wf-captchasound="Enter the numbers you hear:"
+															wf-captchaword="Enter the words above:" class="wf-contbox wf-captcha-1"
+															id="wf-captcha-1"></div>
+														</li>
+														<li class="wf-privacy" rel="temporary" style="display:  none !important;">
+															<div class="wf-contbox">
+																<div>
+																	<a style="height: 0px ! important; display: inline ! important;" target="_blank"
+																	class="wf-privacy wf-privacyico" href="http://www.getresponse.com/permission-seal">We respect your privacy<em class="clearfix clearer"></em></a>
+																</div>
+																<em class="clearfix clearer"></em>
+															</div>
+														</li>
+														<li class="wf-poweredby" rel="temporary" style="display:  none !important;">
+															<div class="wf-contbox">
+																<div>
+																	<span style="display:  none !important;" class="wf-poweredby wf-poweredbyico">
+																		<a target="_blank" style="display:  inline !important; color: inherit ! important;"
+																		class="wf-poweredbylink wf-poweredby" href="http://www.getresponse.com/">Email Marketing</a>by GetResponse</span>
+																</div>
+															</div>
+														</li>
+													</ul>
+												</div>
+												<div id="WFIfooter" class="wf-footer el" style="height: 20px; display:  none !important;">
+													<div class="actTinyMceElBodyContent"></div>
+													<em class="clearfix clearer"></em>
+												</div>
+											</div>
+											<input type="hidden" name="webform_id" value="121781" />
+										</form>
+									</div>
+									<script type="text/javascript" src="//app.getresponse.com/view_webform.js?wid=121781&mg_param1=1&u=siP"></script>
+								</div> -->
+
+							</div>
+
+						</div>
+						<!-- /col #2 -->
+
+
+					</div>
+
+				</div>
+
+				<hr />
+
+				<div class="copyright">
+					<div class="container text-center fsize12">
+						All Right Reserved &copy; 2015 Regal Fish Supplies Ltd &bull; &nbsp;
+						<a href="/about-regal/privacy-policy/" class="fsize11">Privacy Policy</a> &bull;
+						<a href="/terms/" class="fsize11">Terms of Service</a>
+					</div>
+				</div>
+			</footer>
+			<!-- /FOOTER -->
+
+
+			<a href="#" id="toTop"></a>
+
+		</div><!-- /#wrapper -->
+
+		<!-- JAVASCRIPT FILES -->
+		<!--<script type="text/javascript" src="http://www.regalfish.co.uk/assets/plugins/jquery-2.1.1.min.js"></script>-->
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+		<script type="text/javascript" src="http://www.regalfish.co.uk/assets/plugins/jquery.isotope.js"></script>
+		<script type="text/javascript" src="http://www.regalfish.co.uk/assets/plugins/masonry.js"></script>
+
+		<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+		<!--<script type="text/javascript" src="http://www.regalfish.co.uk/assets/plugins/bootstrap/js/bootstrap.min.js"></script>-->
+		<script type="text/javascript" src="http://www.regalfish.co.uk/assets/plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
+		<script type="text/javascript" src="http://www.regalfish.co.uk/assets/plugins/owl-carousel/owl.carousel.min.js"></script>
+		<script type="text/javascript" src="http://www.regalfish.co.uk/assets/plugins/knob/js/jquery.knob.js"></script>
+		<script type="text/javascript" src="http://www.regalfish.co.uk/assets/plugins/flexslider/jquery.flexslider-min.js"></script>
+
+		<!-- REVOLUTION SLIDER -->
+		<script type="text/javascript" src="http://www.regalfish.co.uk/assets/plugins/revolution-slider/js/jquery.themepunch.tools.min.js"></script>
+		<script type="text/javascript" src="http://www.regalfish.co.uk/assets/plugins/revolution-slider/js/jquery.themepunch.revolution.min.js"></script>
+		<script type="text/javascript" src="http://www.regalfish.co.uk/assets/js/revolution_slider.js"></script>
+		<script type="text/javascript" src="http://www.regalfish.co.uk/assets/js/scripts.js"></script>
+
+		<script type="text/javascript" src="http://www.regalfish.co.uk/assets/js/custom.js"></script>
+
+		<!-- Used on recommend a friend form, probably need to add this only when needed -->
+		<!--<script src="http://www.regalfish.co.uk/sites/default/js/parsley.min.js"></script>-->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/parsley.js/2.0.7/parsley.min.js"></script>
+	<script async type='text/javascript' src='http://blog.regalfish.co.uk/wp-content/plugins/cleantalk-spam-protect/inc/cleantalk_nocache.js?random=5.53'></script>
+</body>
+</html>
